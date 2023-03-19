@@ -5,7 +5,10 @@ The PD flow steps are references from [Doc link](https://openroad-flow-scripts.r
 $ git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 $ cd OpenROAD-flow-scripts
 $ sudo ./etc/DependencyInstaller.sh        # Script was modified for lemon installation
-$ 
+$ ./build_openroad.sh 
+
+### Intermediate step 
+ $ DOCKER_BUILDKIT=0 ./etc/DockerHelper.sh create -target=builder -threads=4
 ```
 
 ## Changes made - threads=4
