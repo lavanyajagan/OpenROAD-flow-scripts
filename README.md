@@ -11,6 +11,7 @@ $ ./build_openroad.sh
  $ DOCKER_BUILDKIT=0 ./etc/DockerHelper.sh create -target=builder -threads=4
 ```
 
+
 ## Changes made - threads=4
 ```
 diff --git a/build_openroad.sh b/build_openroad.sh
@@ -53,7 +54,13 @@ index 336c4d0f0..870d03443 100755
 -   Layout verification using Magic
 -   GDSII using Magic, KLayout
 
- 
+# IBEX Flow
+
+```
+$ cd flow
+$ export DESIGN_CONFIG=./designs/asap7/ibex/config.mk
+$ make
+```
 ## License
 
 The OpenROAD-flow-scripts repository (build and run scripts) has a BSD 3-Clause License.
