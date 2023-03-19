@@ -60,6 +60,30 @@ index 336c4d0f0..870d03443 100755
 $ cd flow
 $ export DESIGN_CONFIG=./designs/asap7/ibex/config.mk
 $ make
+...
+
+[INFO] Writing out GDS/OAS 'results/asap7/ibex/base/6_1_merged.gds'
+Elapsed time: 0:04.67[h:]min:sec. CPU time: user 3.80 sys 0.38 (89%). Peak memory: 418052KB.
+cp results/asap7/ibex/base/6_1_merged.gds results/asap7/ibex/base/6_final.gds
+Log                       Elapsed seconds
+4_2_cts_fillcell                 116
+3_3_place_gp                    3104
+5_1_fastroute                   1927
+1_1_yosys                       5875
+6_1_merge                        307
+3_1_place_gp_skip_io             490
+3_2_place_iop                    106
+2_3_tdms_place                   100
+2_6_pdn                          121
+2_5_tapcell                       98
+4_1_cts                         5401
+3_4_resizer                     1046
+2_1_floorplan                    326
+3_5_opendp                       443
+5_2_TritonRoute                49846
+2_4_mplace                       102
+6_report                        3725
+2_2_floorplan_io                 104
 ```
 ## License
 
