@@ -4,7 +4,7 @@ Types of design done through the ORFS
 - ibex
 - SHAKTI FPU
 
-The results are attached as zip files
+The results are attached as tar files: [results](https://github.com/lavanyajagan/OpenROAD-flow-scripts/blob/master/results.tar.gz)
 
 
 # OpenRoad Flow Understanding and Steps
