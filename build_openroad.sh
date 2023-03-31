@@ -193,7 +193,7 @@ done
 
 if [[ "$PROC" == "-1" ]]; then
         if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-                PROC=$(nproc --all)
+                PROC=4
         elif [[ "$OSTYPE" == "darwin"* ]]; then
                 PROC=$(sysctl -n hw.ncpu)
         else
