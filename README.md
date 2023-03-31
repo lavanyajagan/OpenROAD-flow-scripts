@@ -2,7 +2,14 @@
 
 Types of design done through the ORFS
 - ibex
+
+<img src="https://user-images.githubusercontent.com/35677601/229236612-3476f998-8fe3-40ab-883a-eb93fadc23d2.png" width=300>
+
+
 - SHAKTI FPU
+
+<img src="https://user-images.githubusercontent.com/35677601/229235524-ebf89a49-5915-4ce8-95a7-d795d4140255.png" width=300>
+
 
 The results are attached as tar files: [results](https://github.com/lavanyajagan/OpenROAD-flow-scripts/blob/master/results.tar.gz)
 
