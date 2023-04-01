@@ -1,6 +1,40 @@
 # FINAL Submission
 
-Types of design done through the ORFS
+The ORFS Docker setup was used to generate the RTL2GDS automation for 1 existing and 2 new designs related to RISC-V (``SHAKTI RISC-V`` and ``SHAKTI FPU``).
+
+- SHAKTI CCLASS routing pic
+
+<img src="https://user-images.githubusercontent.com/35677601/229266649-2adab9cf-f464-49a7-9308-13f5de90b765.png" width=300>
+
+```
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+0.284618
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.55e-02   1.81e-03   3.89e-06   1.73e-02  31.7%
+Combinational          1.39e-02   2.33e-02   2.75e-05   3.72e-02  68.3%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.94e-02   2.51e-02   3.13e-05   5.45e-02 100.0%
+                          53.9%      46.0%       0.1%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 29179 u^2 44% utilization.
+
+Elapsed time: 8:40.69[h:]min:sec. CPU time: user 506.23 sys 7.61 (98%). Peak memory: 5673056KB.
+
+```
+
 - ibex
 
 <img src="https://user-images.githubusercontent.com/35677601/229236612-3476f998-8fe3-40ab-883a-eb93fadc23d2.png" width=300>
